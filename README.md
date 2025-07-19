@@ -75,6 +75,36 @@ The aim is to explore real-world datasets and apply Python-based data science te
 
 ---
 
+## 👨‍💻 Author
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Author-Ritesh%20Paithankar-blueviolet?style=for-the-badge&logo=github" />
+</p>
+
+**Ritesh Paithankar**  
+🎓 Data Science Intern at **Shadow Fox** (via **CodSoft**)  
+📍 India  
+📫 Email: ritesh@example.com *(Replace with your real email)*  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/ritesh-paithankar-4b43a828a)  
+🗓️ Task: **CodSoft Internship Task 2**
+
+---
+
+## 🤝 Acknowledgements
+
+🙏 Huge thanks to **CodSoft** for this opportunity  
+🎯 Special mention to **Shadow Fox** for mentoring support  
+❤️ Gratitude to the open-source Python and data science community  
+
+---
+
+## ⭐ Final Note
+
+This project reflects my beginner-to-intermediate journey into **data science and machine learning** using Python.
+
+If you find this helpful or inspiring, feel free to ⭐ star the repo and connect with me on [LinkedIn](https://www.linkedin.com/in/ritesh-paithankar-4b43a828a)!
+
+
 ## 📊 Sample Visualization
 
 ```python
@@ -84,3 +114,4 @@ plt.title("🏆 Top 10 Indian Movies by IMDb Rating")
 plt.xlabel("Rating")
 plt.ylabel("Movie Name")
 plt.tight_layout()
+
