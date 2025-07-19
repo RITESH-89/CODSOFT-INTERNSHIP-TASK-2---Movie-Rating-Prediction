@@ -84,7 +84,7 @@ The aim is to explore real-world datasets and apply Python-based data science te
 **Ritesh Paithankar**  
 🎓 Data Science Intern at **Shadow Fox** (via **CodSoft**)  
 📍 India  
-📫 Email: ritesh@example.com *(Replace with your real email)*  
+📫 Email: riteshpaithankar00@gmail.com  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/ritesh-paithankar-4b43a828a)  
 🗓️ Task: **CodSoft Internship Task 2**
 
