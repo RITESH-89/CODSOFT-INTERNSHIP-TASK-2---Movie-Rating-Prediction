@@ -107,6 +107,15 @@ If you find this helpful or inspiring, feel free to ⭐ star the repo and connec
 
 ## 📊 Sample Visualization
 
+<img width="1260" height="743" alt="Screenshot 2025-07-19 184611" src="https://github.com/user-attachments/assets/40975e4f-1d3b-418b-b6b1-7fd56d6387cd" />
+<img width="883" height="692" alt="Screenshot 2025-07-19 184512" src="https://github.com/user-attachments/assets/fff18742-9237-4124-8c06-11e5cdf42173" />
+<img width="288" height="315" alt="Screenshot 2025-07-19 184440" src="https://github.com/user-attachments/assets/699d826f-ca72-4fd7-9593-ecec0a623367" />
+<img width="637" height="241" alt="Screenshot 2025-07-19 184431" src="https://github.com/user-attachments/assets/b8af8dc7-9adc-48cb-ba46-8ab0a0a6b2c1" />
+<img width="246" height="233" alt="Screenshot 2025-07-19 184311" src="https://github.com/user-attachments/assets/313041eb-7070-4848-b54d-e5b7fa2a78c0" />
+<img width="528" height="365" alt="Screenshot 2025-07-19 184303" src="https://github.com/user-attachments/assets/ec94cc0b-173a-47fd-b5d4-34505302b9b7" />
+<img width="1338" height="218" alt="Screenshot 2025-07-19 184248" src="https://github.com/user-attachments/assets/d24ca531-c4f0-41f3-bbc8-3cb897bd762a" />
+<img width="932" height="204" alt="Screenshot 2025-07-19 184239" src="https://github.com/user-attachments/assets/0b71280d-fc0f-42ae-a9ab-e68fa3a20fa1" />
+
 ```python
 # Bar plot of top 10 highest-rated movies
 sns.barplot(x='Rating', y='Name', data=top_movies, palette='viridis')
@@ -114,12 +123,4 @@ plt.title("🏆 Top 10 Indian Movies by IMDb Rating")
 plt.xlabel("Rating")
 plt.ylabel("Movie Name")
 plt.tight_layout()
-
-<img width="1260" height="743" alt="Screenshot 2025-07-19 184611" src="https://github.com/user-attachments/assets/a5ae0a2f-a2c2-4c53-bef8-7a124a2e8dc8" />
-<img width="883" height="692" alt="Screenshot 2025-07-19 184512" src="https://github.com/user-attachments/assets/ee88a746-c9e2-4e18-924b-423bf9d2a531" />
-<img width="288" height="315" alt="Screenshot 2025-07-19 184440" src="https://github.com/user-attachments/assets/24d66b21-6a35-4ccf-bab3-783affcd015c" />
-<img width="637" height="241" alt="Screenshot 2025-07-19 184431" src="https://github.com/user-attachments/assets/6c1f7eed-5cc0-4d96-9013-3601f97ad692" />
-<img width="246" height="233" alt="Screenshot 2025-07-19 184311" src="https://github.com/user-attachments/assets/3b74c1a7-7341-4ca1-92f4-c8afd4c3f212" />
-<img width="528" height="365" alt="Screenshot 2025-07-19 184303" src="https://github.com/user-attachments/assets/a4633004-cb91-46ab-8ecc-8d8938fcebdf" />
-<img width="1338" height="218" alt="Screenshot 2025-07-19 184248" src="https://github.com/user-attachments/assets/086af407-06c0-4b76-b8b4-fcedcff66cfc" />
-<img width="932" height="204" alt="Screenshot 2025-07-19 184239" src="https://github.com/user-attachments/assets/0d115297-a926-4936-bdf5-560189ffc1dc" />
+plt.show()
