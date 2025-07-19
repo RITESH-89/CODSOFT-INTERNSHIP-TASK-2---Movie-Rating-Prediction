@@ -17,75 +17,61 @@
 
 ---
 
-## 📚 Table of Contents
-- [📌 Project Overview](#-project-overview)
-- [📁 Dataset Details](#-dataset-details)
-- [🧪 Technologies Used](#-technologies-used)
-- [🔧 How It Works](#-how-it-works)
-- [📈 Sample Results](#-sample-results)
-- [📊 Sample Visualization](#-sample-visualization)
-- [🧠 Skills Learned](#-skills-learned)
-- [🚀 How to Run](#-how-to-run)
-- [👨‍💻 Author](#-author)
-- [🤝 Acknowledgements](#-acknowledgements)
-- [⭐ Final Note](#-final-note)
-
----
-
 ## 📌 Project Overview
 
-This project is part of the **CodSoft Data Science Internship** and focuses on building a machine learning model that predicts IMDb movie ratings based on attributes like **genre**, **director**, and **lead actor**.
+This project is part of the **CodSoft Data Science Internship** and focuses on building a machine learning model that predicts IMDb movie ratings based on attributes like **genre**, **director**, and **lead actors**.
 
-The goal is to develop a predictive regression model using real-world movie data in Python via Jupyter Notebook.
+The aim is to explore real-world datasets and apply Python-based data science techniques to develop a regression model and present meaningful visualizations.
 
 ---
 
 ## 📁 Dataset Details
 
-- 📄 File: `IMDb Movies India.csv`
-- 🎥 Features:  
-  - Name  
-  - Genre  
-  - Director  
-  - Actor 1, 2, 3  
-  - Rating (Target)  
-  - Year, Duration, Votes
+- **Filename**: `IMDb Movies India.csv`
+- **Columns**:
+  - 🎬 Name
+  - 🎞️ Genre
+  - 🎥 Director
+  - 🧑‍🎤 Actor 1, 2, 3
+  - ⭐ Rating (Target)
+  - 📅 Year
+  - 🕒 Duration
+  - 🗳️ Votes
 
-- 🧼 Cleaning done:
-  - Null value removal
-  - Label Encoding of Categorical Data
+- **Cleaning Done**:
+  - Removed null values  
+  - Label encoded categorical features  
+  - Removed unnecessary or duplicate data
 
 ---
 
 ## 🧪 Technologies Used
 
-- **Python** 🐍  
-- **Jupyter Notebook** 📓  
-- **Pandas** – data manipulation  
-- **NumPy** – numerical ops  
-- **Matplotlib & Seaborn** – data visualization  
-- **scikit-learn** – regression & preprocessing  
+- 🐍 Python  
+- 📓 Jupyter Notebook  
+- 📊 Pandas, NumPy – data manipulation  
+- 🎨 Matplotlib, Seaborn – visualizations  
+- 🧠 scikit-learn – ML modeling  
 
 ---
 
 ## 🔧 How It Works
 
-1. Import & load the IMDb dataset  
-2. Clean data (drop nulls, remove unused columns)  
-3. Apply `LabelEncoder` to transform genres, actors, directors  
-4. Use `train_test_split()` from `sklearn`  
-5. Fit LinearRegression model  
-6. Evaluate with R² Score  
-7. Plot top 10 movies by rating
+1. Load and explore dataset  
+2. Clean data and encode text features  
+3. Split data into training and test sets  
+4. Apply **Linear Regression**  
+5. Evaluate model using R² Score  
+6. Visualize top 10 movies by rating
 
 ---
 
 ## 📈 Sample Results
 
-- ✅ Trained on real Indian movie dataset  
-- ✅ Model outputs a predicted rating  
-- ✅ R² Score shows how well predictions match real IMDb ratings  
-- ✅ Chart of top 10 highest-rated movies generated
+- ✅ Model trained using IMDb movie dataset  
+- ✅ Predicts ratings based on cast, director, genre  
+- ✅ Evaluation metric: **R² Score**  
+- ✅ Outputs a clean bar chart of top-rated movies  
 
 ---
 
@@ -98,10 +84,3 @@ plt.title("🏆 Top 10 Indian Movies by IMDb Rating")
 plt.xlabel("Rating")
 plt.ylabel("Movie Name")
 plt.tight_layout()
-
-Ritesh Paithankar
-🎓 Data Science Intern at Shadow Fox (via CodSoft)
-📍 India
-📫 Email: ritesh@example.com (Replace with your real email)
-🔗 LinkedIn Profile (Optional)
-🗓️ Internship Task: CodSoft Internship Task 2
